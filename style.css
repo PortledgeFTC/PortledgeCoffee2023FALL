@@ -1,0 +1,132 @@
+/* This will style the BODY element */
+body {
+    background-color: lightgray;
+    background-image: url(images/coffeeSK8geek.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* This will style the wrapper class to center the content */
+.wrapper {
+    /* background-color: blueviolet; */
+    width: 1024px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* This will style the HEADER where the logo will go */
+header {
+    /* background-color: blue; */
+    min-height: 120px;
+}
+
+/* Style the Logo */
+.logoImage {
+    height: 120px;
+}
+
+/* This will style the NAV for links to other pages */
+nav {
+    background-color: rgba(43, 185, 255, 0.284);
+    min-height: 45px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+
+/* Style the links to other pages */
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(222, 222, 222);
+    text-shadow: 1px 1px 1px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Style the MAIN */
+main {
+    /* background-color: darkorange; */
+    min-height: 375px;
+    text-align: center;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+/* Style the h1 to enlarge the font and make it pop off the page */
+main h1 {
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* Do This for the h2: set the font size to 50 px, change the color to white, 
+    pick a font family of your choice, add a text shadow   */
+main h2 {
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+/* Do This for the p: set the size to 18px, change the color to rgba(249,111, 93, 1), change the font family, and also add a text shadow */
+main p {
+    font-size: 18px;
+    color: rgba(249, 111, 93, 0.945);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+/* Style the Map class */
+.map {
+    /* background-color: gold; */
+    min-height: 120px;
+    text-align: center;
+}
+
+
+/* This will style the FOOTER */
+footer {
+    background-color: rgba(43, 185, 255, 0.284);
+    min-height: 60px;
+}
+
+footer p {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 16px;
+}
+
+/* Style for the Contact Us Page */
+.contact {
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    background-color: rgba(230, 222, 163, 0.284);
+}
+
+.contactImg {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* List of Times */
+ul {
+    list-style-type: none;
+    font-size: 24px;
+}
